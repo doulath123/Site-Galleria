@@ -55,14 +55,14 @@ button{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.left .top-bar .button{
+.left .top-bar .link .button{
   border: none;
   background-color: #457eb8;
   font-size: 16px;
   padding: 10px 0px 10px;
   font-weight: 500;
   color: white;
-  width: 13%;
+  width: 200px;
   margin-right: 5px;
   border-radius: 5px;
 }
@@ -194,8 +194,8 @@ background-color: #ceeced;
   flex-wrap: wrap;
   margin-top: 1%;
 }
-.right .middle-box .content button{
-  width: 20%;
+.right .middle-box .content .link button{
+  width: 60px;
   height:40px ;
   border: 2px solid #ceeced;
 }
@@ -299,9 +299,6 @@ background-color: #ceeced;
 .line{
   margin-top: 22px;
   border: 2px solid white;
-}
-.right .bottom-box .buttons-continer{
-  
 }
 .right .bottom-box .buttons-continer .button-bar{
   display: flex;
